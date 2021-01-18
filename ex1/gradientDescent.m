@@ -19,8 +19,8 @@ for iter = 1:num_iters
 
 
 
-
-
+    gradient = (1/m)*(X'*(X*theta - y));
+    theta -= alpha * gradient;
 
 
     % ============================================================
